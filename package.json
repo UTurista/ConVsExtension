@@ -1,0 +1,36 @@
+{
+    "name": "battlefield",
+    "displayName": "",
+    "description": "Battlefield .Con .Tweak",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {},
+    "main": "./out/extension",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -b",
+        "watch": "tsc -b -w"
+    },
+    "dependencies": {
+        "vscode-languageclient": "^7.0.0"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.52.0",
+        "@types/mocha": "^8.2.2",
+        "@types/node": "^12.12.0",
+        "@typescript-eslint/eslint-plugin": "^4.23.0",
+        "@typescript-eslint/parser": "^4.23.0",
+        "eslint": "^7.26.0",
+        "mocha": "^8.3.2",
+        "typescript": "^4.2.3",
+        "vscode-test": "^1.3.0"
+    }
+}
